@@ -1,0 +1,83 @@
+Script started on Mon 21 Oct 2013 12:45:57 AM CDT
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein test
+
+lein test simplediff.core-test
+
+Ran 5 tests containing 5 assertions.
+0 failures, 0 errors.
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein test[1Prun
+usage: simplediff <file1> <file2>
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein runtest[1Pruncd pinball/pwd[Kgit clone git@github.com:joshuacalloway/pinball.giit[A]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ cd ..[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit clone git@github.com:joshuacalloway/pinball.giit[A]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ pwd[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd pinball/[3Plein runtest[1Prun[Klein run "file1.txt" "file2.txt"
+(1 c 1 < This is first line > This is new first line)
+(4 a 5 > several)
+(4 a 6 > and even more several)
+(7 d 8 < )
+(8 a 10 > No actually this one is.)
+(8 a 11 > )
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ script off
+Script started, file is off
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ cat typescript 
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ script ont[K
+Script started, file is on
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ s[Kls
+[0m[01;34mdoc[0m        fileA.txt  fileD.txt     off          README.md  [01;34mtarget[0m
+file1.txt  fileB.txt  #.gitignore#  on           [01;34mresources[0m  [01;34mtest[0m
+file2.txt  fileC.txt  LICENSE       project.clj  [01;34msrc[0m        typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ script
+Script started, file is typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ script
+Script started, file is typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein test
+
+lein test simplediff.core-test
+
+Ran 5 tests containing 5 assertions.
+0 failures, 0 errors.
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein run
+usage: simplediff <file1> <file2>
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein run "file1.txt" "file2.txt"
+(1 c 1 < This is first line > This is new first line)
+(4 a 5 > several)
+(4 a 6 > and even more several)
+(7 d 8 < )
+(8 a 10 > No actually this one is.)
+(8 a 11 > )
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ exit
+exit
+Script done, file is typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ cat typescript 
+Script started on Mon 21 Oct 2013 12:47:47 AM CDT
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein test
+
+lein test simplediff.core-test
+
+Ran 5 tests containing 5 assertions.
+0 failures, 0 errors.
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein run
+usage: simplediff <file1> <file2>
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ lein run "file1.txt" "file2.txt"
+(1 c 1 < This is first line > This is new first line)
+(4 a 5 > several)
+(4 a 6 > and even more several)
+(7 d 8 < )
+(8 a 10 > No actually this one is.)
+(8 a 11 > )
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ exit
+exit
+
+Script done on Mon 21 Oct 2013 12:48:10 AM CDT
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git add typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git c[Kstatus
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   typescript
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   
