@@ -164,4 +164,98 @@ To git@github.com:joshuacalloway/simplediff.git
    84c2836..2fe5a60  master -> master
 ]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
 # On branch master
-# Changes not staged for
+# Changes not staged forabase ... 100%(Reading database ... 145943 files and directories currently installed.)
+Unpacking dos2unix (from .../dos2unix_6.0-1_amd64.deb) ...
+Processing triggers for man-db ...
+Setting up dos2unix (6.0-1) ...
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ dos2unix typescript 
+dos2unix: Skipping binary file typescript
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ scrjipt[K[K[K[Kipt off
+Script started, file is off
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ exit
+exit
+Script done, file is off
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#	modified:   typescript
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	#.gitignore#
+#	.#.gitignore
+#	fileA.txt
+#	fileB.txt
+#	fileC.txt
+#	fileD.txt
+#	off
+#	on
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git commit -m "added readme" .
+[master 2fe5a60] added readme
+ Committer: Joshua Calloway <joshua@josh-asus.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 131 insertions(+), 32 deletions(-)
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 2.36 KiB, done.
+Total 4 (delta 2), reused 0 (delta 0)
+To git@github.com:joshuacalloway/simplediff.git
+   84c2836..2fe5a60  master -> master
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   README.md
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	#.gitignore#
+#	.#.gitignore
+#	fileA.txt
+#	fileB.txt
+#	fileC.txt
+#	fileD.txt
+#	off
+#	on
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git commit -m "cleaned up readme" .
+[master 0c0e9e6] cleaned up readme
+ Committer: Joshua Calloway <joshua@josh-asus.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 58 insertions(+), 56 deletions(-)
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4
