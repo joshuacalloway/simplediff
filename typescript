@@ -164,52 +164,6 @@ To git@github.com:joshuacalloway/simplediff.git
    84c2836..2fe5a60  master -> master
 ]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
 # On branch master
-# Changes not staged forsus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
-# On branch master
-# Changes not staged for commit:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#	modified:   README.md
-#	modified:   typescript
-#
-# Untracked files:
-#   (use "git add <file>..." to include in what will be committed)
-#
-#	#.gitignore#
-#	.#.gitignore
-#	fileA.txt
-#	fileB.txt
-#	fileC.txt
-#	fileD.txt
-#	off
-#	on
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git commit -m "added readme" .
-[master 2fe5a60] added readme
- Committer: Joshua Calloway <joshua@josh-asus.(none)>
-Your name and email address were configured automatically based
-on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explicitly:
-
-    git config --global user.name "Your Name"
-    git config --global user.email you@example.com
-
-After doing this, you may fix the identity used for this commit with:
-
-    git commit --amend --reset-author
-
- 2 files changed, 131 insertions(+), 32 deletions(-)
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git push origin master
-Counting objects: 7, done.
-Delta compression using up to 8 threads.
-Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 2.36 KiB, done.
-Total 4 (delta 2), reused 0 (delta 0)
-To git@github.com:joshuacalloway/simplediff.git
-   84c2836..2fe5a60  master -> master
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
-# On branch master
 # Changes not staged for commit:
 #   (use "git add <file>..." to update what will be committed)
 #   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -256,4 +210,39 @@ To git@github.com:joshuacalloway/simplediff.git
  Committer: Joshua Calloway <joshua@josh-asus.(none)>
 Your name and email address were configured automatically based
 on your username and hostname. Please check that they are accurate.
-You can suppress this message by setting them explic
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 112 insertions(+), 17 deletions(-)
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git commit -m "cleaned up readme" .[13Ppush origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 576 bytes, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To git@github.com:joshuacalloway/simplediff.git
+   0c0e9e6..dff4099  master -> master
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git push origin mastercommit -m "cleaned up readme" .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kindentation" .
+[master 85e4e6c] indentation
+ Committer: Joshua Calloway <joshua@josh-asus.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 21 insertions(+), 26 deletions(-)
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git commit -m "indentation" .[7Ppush origin master
+Counting objects: 13, done.
+Delta com
