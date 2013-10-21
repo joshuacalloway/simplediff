@@ -5,7 +5,6 @@
 
 (defn make [a b] (FileDiff. a b))
 
-
 (defn exists-line? [line lines]
   (if (empty? lines)
     false
@@ -27,21 +26,21 @@
         cdiff #(list* %1 "c" %2 (str< %3) [(str> %4)] )         
         ]
     (cond
-   (and (empty? linesA) (empty? linesB)) nil
-   (empty? linesA) (cons (adiff cur-line-noA cur-line-noB++ carB)
-                         (docompare linesA cur-line-noA cdrB cur-line-noB++))
+     (and (empty? linesA) (empty? linesB)) nil
+     (empty? linesA) (cons (adiff cur-line-noA cur-line-noB++ carB)
+                           (docompare linesA cur-line-noA cdrB cur-line-noB++))
 
      (empty? linesB) (cons (ddiff cur-line-noA++ cur-line-noB carA)
-                         (docompare cdrA cur-line-noA++ linesB cur-line-noB))
+                           (docompare cdrA cur-line-noA++ linesB cur-line-noB))
 
-   (= carA carB) (docompare cdrA cur-line-noA++ cdrB cur-line-noB++)
-   (exists-line? carB cdrA) (cons (ddiff cur-line-noA++ cur-line-noB carA) (docompare cdrA cur-line-noA++ linesB cur-line-noB))
-   (exists-line? carA cdrB) (cons (adiff cur-line-noA cur-line-noB++ carB) (docompare linesA cur-line-noA cdrB cur-line-noB++))
-   :else (cons (cdiff cur-line-noA++ cur-line-noB++ carA carB) (docompare cdrA cur-line-noA++ cdrB cur-line-noB++))
-   ))
+     (= carA carB) (docompare cdrA cur-line-noA++ cdrB cur-line-noB++)
+     (exists-line? carB cdrA) (cons (ddiff cur-line-noA++ cur-line-noB carA) (docompare cdrA cur-line-noA++ linesB cur-line-noB))
+     (exists-line? carA cdrB) (cons (adiff cur-line-noA cur-line-noB++ carB) (docompare linesA cur-line-noA cdrB cur-line-noB++))
+     :else (cons (cdiff cur-line-noA++ cur-line-noB++ carA carB) (docompare cdrA cur-line-noA++ cdrB cur-line-noB++))
+     ))
   )
 
- 
+
 (defn dodiff [D]
   (let [rdrA (reader (:fileA D))
         rdrB (reader (:fileB D))
@@ -49,4 +48,3 @@
         linesB (line-seq rdrB)
         ]
     (docompare linesA 0 linesB 0)))
-  

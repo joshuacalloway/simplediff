@@ -1,6 +1,5 @@
 (ns simplediff.core)
 
-
 (use 'simplediff.diff)
 
 (defn -main [& args]

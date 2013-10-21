@@ -164,18 +164,7 @@ To git@github.com:joshuacalloway/simplediff.git
    84c2836..2fe5a60  master -> master
 ]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
 # On branch master
-# Changes not staged forabase ... 100%(Reading database ... 145943 files and directories currently installed.)
-Unpacking dos2unix (from .../dos2unix_6.0-1_amd64.deb) ...
-Processing triggers for man-db ...
-Setting up dos2unix (6.0-1) ...
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ dos2unix typescript 
-dos2unix: Skipping binary file typescript
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ scrjipt[K[K[K[Kipt off
-Script started, file is off
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ exit
-exit
-Script done, file is off
-]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
+# Changes not staged forsus: ~/simplediffjoshua@josh-asus:~/simplediff$ git status
 # On branch master
 # Changes not staged for commit:
 #   (use "git add <file>..." to update what will be committed)
@@ -258,4 +247,13 @@ After doing this, you may fix the identity used for this commit with:
 Counting objects: 7, done.
 Delta compression using up to 8 threads.
 Compressing objects:  25% (1/4)   Compressing objects:  50% (2/4)   Compressing objects:  75% (3/4)   Compressing objects: 100% (4/4)   Compressing objects: 100% (4/4), done.
-Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4
+Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 716 bytes, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To git@github.com:joshuacalloway/simplediff.git
+   2fe5a60..0c0e9e6  master -> master
+]0;joshua@josh-asus: ~/simplediffjoshua@josh-asus:~/simplediff$ git push origin mastercommit -m "cleaned up readme" .
+[master dff4099] cleaned up readme
+ Committer: Joshua Calloway <joshua@josh-asus.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explic
