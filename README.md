@@ -10,7 +10,7 @@ I developed this on ubuntu linux., but it should work on windows or mac OS.
 
 * https://github.com/technomancy/leiningen
 * Java 6 or 7 installed
-* see USAGE for more details
+* see USAGE for more details<br>
   ** lein run  
   ** lein test
 
