@@ -3,6 +3,18 @@
 A simple program to diff two files.
 I chose to use clojure because I didn't know clojure before, and thought this was a good opportunity to try it out.
 
+## build, run, test
+
+Need lein installed.
+I developed this on ubuntu linux., but it should work on windows or mac OS.
+
+* https://github.com/technomancy/leiningen
+* Java 6 or 7 installed
+* see USAGE for more details
+  ** lein run  
+  ** lein test
+
+
 ## Usage
 
 Script started, file is typescript<br>
