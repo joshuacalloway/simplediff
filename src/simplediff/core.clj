@@ -1,4 +1,4 @@
-(ns simplediff.core)
+(ns simplediff.core (:gen-class))
 
 (use 'simplediff.diff)
 
