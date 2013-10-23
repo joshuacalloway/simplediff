@@ -14,6 +14,16 @@ I developed this on ubuntu linux., but it should work on windows or mac OS.
   ** lein run  
   ** lein test
 
+## Windows
+Follow the instructions on this website to download jdk 7 and run lein installer. <br>
+
+http://leiningen-win-installer.djpowell.net/ <br>
+
+clone simplediff<br>
+ - git clone https://github.com/joshuacalloway/simplediff.git
+ - CD into simplediff directory in CMD prompt ( or cygwin prompt )
+ - lein.bat run
+ - lein.bat test
 
 ## Usage
 
